@@ -3,6 +3,8 @@ using System.ComponentModel.DataAnnotations;
 
 namespace LojaCET49.Dados.Entidades
 {
+
+    
     public class Produto
     {
         public int Id { get; set; }
@@ -15,7 +17,7 @@ namespace LojaCET49.Dados.Entidades
         [DisplayFormat(DataFormatString = "{0:C2}", ApplyFormatInEditMode = false)]
         public decimal Preco { get; set; }
 
-        [Display(Name = "Image")]
+        [Display(Name = "Imagem")]
         public string UrlDaImage { get; set; }
 
         [Display(Name = "Última Compra")]
